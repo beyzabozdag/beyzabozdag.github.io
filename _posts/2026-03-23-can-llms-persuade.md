@@ -6,11 +6,6 @@ tags:
   - persuasion
   - survey
 ---
-
-# To Be or Not to Be Persuaded: Persuasion in Large Language Models
-
----
-
 > **Authors:** Nimet Beyza Bozdag, Shuhaib Mehri, Gokhan Tur, Dilek Hakkani-Tür
 **Date:** 03/23/2026
 > 
