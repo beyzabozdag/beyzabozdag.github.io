@@ -317,6 +317,7 @@ layout: null
     margin-top: 22px;
     animation: fadeUp 0.7s ease 0.1s both;
   }
+  .status-note > span:last-child { min-width: 0; }
   .status-dot {
     width: 8px;
     height: 8px;
@@ -491,6 +492,7 @@ layout: null
   }
   .entry-icon.placeholder { display: flex; align-items: center; justify-content: center; }
   .entry-icon.placeholder svg { width: 22px; height: 22px; color: var(--accent-2); opacity: 0.65; }
+  .entry-body { min-width: 0; }
   .entry-body h3 { font-family: var(--serif); font-size: 15.5px; font-weight: 600; margin-bottom: 2px; }
   .entry-body p { font-size: 13.5px; color: var(--text-secondary); }
 
@@ -559,20 +561,29 @@ layout: null
   }
 
   @media (max-width: 800px) {
-    .page-wrap { flex-direction: column; gap: 0; }
+    body { font-size: 14.5px; }
+    .page-wrap { flex-direction: column; gap: 0; align-items: stretch; }
     .sidebar {
       width: 100%;
       position: static;
-      padding: 48px 0 28px;
+      padding: 40px 0 24px;
       text-align: center;
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+    .avatar { width: 140px; height: 140px; margin-bottom: 16px; }
+    .sidebar h1 { font-size: 21px; }
     .sb-links { justify-content: center; }
     .status-note { max-width: 320px; text-align: left; }
-    .main { padding-top: 12px; }
+    .main { width: 100%; padding-top: 32px; }
+    .greeting { font-size: 20px; }
     .lead { max-width: 100%; }
+    .sec-title { font-size: 18px; }
+    .hobby-group { margin-bottom: 22px; }
+    .pub-body h3 { font-size: 15px; }
+    .blog-item h3 { font-size: 16px; }
+    .entry-body h3, .talk-item h3 { font-size: 14.5px; }
   }
 
   @media (max-width: 520px) {
