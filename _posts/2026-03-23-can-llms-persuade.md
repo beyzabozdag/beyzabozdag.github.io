@@ -2,6 +2,8 @@
 title: 'To Be or Not to Be Persuaded: Persuasion in Large Language Models'
 date: 2026-03-23
 permalink: /posts/2026/03/can-llms-persuade/
+excerpt: 'How well can large language models persuade -- and how easily are they persuaded in turn? A look at both sides of persuasion in LLMs, and why it matters for AI safety.'
+image: /images/persuader_robot.png
 tags:
   - persuasion
   - survey
